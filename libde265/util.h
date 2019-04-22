@@ -46,7 +46,7 @@
 #define IS_LITTLE_ENDIAN 1
 #else
 #include <endian.h>
-#define IS_LITTLE_ENDIAN (__BYTE_ORDER == __LITTLE_ENDIAN)
+#define IS_LITTLE_ENDIAN (BYTE_ORDER == LITTLE_ENDIAN)
 #endif
 
 #ifdef _MSC_VER
